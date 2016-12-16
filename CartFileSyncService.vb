@@ -8,7 +8,7 @@ Imports System.IO
 Public Class CartFileSyncService
     Inherits System.ServiceProcess.ServiceBase
 
-    'this process should be run under the BatchUser account
+    'this process should be run under the B****** account
     'and it needs access to folders on both nodes
 
     'db connection paramaters
