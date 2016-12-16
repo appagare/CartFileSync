@@ -172,7 +172,7 @@ Public Class CartFileSyncService
     ''' <summary>
     '''     Worker thread to process the records.
     ''' </summary>
-    ''' <param name="State">New thread callback. State contains the TranType</param>
+    ''' <param name="State">New thread callback. State is null</param>
     ''' <remarks>
     '''     This runs in a continuous loop until the service is stopped.
     '''     Multiple threads are spawned, one for each TranType. The thread will sleep when no messages are 
